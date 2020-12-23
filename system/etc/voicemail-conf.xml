@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voicemail>
+<!--
+This is a list for operator specific default voicemail numbers.
+For those EF_MBDN(3G) and EF_MN(CPHS) are both empty case,
+We will use below voicemail number for instead if numeric is matched.
+
+Please also be noted, below numbers are not modifiable once anyone
+of those is used as default VM number.
+
+Format is listed as below:
+<voicemail
+    numeric="MCC+MNC"
+    carrier="Operator Name"
+    vmnumber="Voicemail Number"
+    vmtag="Tag for Voicemail" />
+-->
+    <voicemail numeric="20205" carrier="VDF" vmnumber="121" vmtag="Voicemail" />
+    <voicemail numeric="22210" carrier="VDF" vmnumber="42020" vmtag="Voicemail" />
+</voicemail>
